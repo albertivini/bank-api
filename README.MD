@@ -3,8 +3,8 @@
 ## Description
 
 Simple Bank API made in Node.Js, Express, Prisma and Postgres.
-<p>Documentation: ${BASE_URL}/api-docs</p>
 
+#### Documentation: ${BASE_URL}/api-docs
 
 ## Installation
 
@@ -28,6 +28,13 @@ $ yarn prisma:generate
 ## Running the app
 
 ```bash
+# Docker:
+ 
+$ docker compose up -d 
+
+
+# Local:
+
 # Build
 $ yarn tsc
 
