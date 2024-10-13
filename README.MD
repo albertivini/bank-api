@@ -3,7 +3,7 @@
 ## Description
 
 Simple Bank API made in Node.Js, Express, Prisma and Postgres.
-<p><a href='www.localhost:3000/api-docs'>Documentation</a></p>
+<p>Documentation: ${BASE_URL}/api-docs</p>
 
 
 ## Installation
