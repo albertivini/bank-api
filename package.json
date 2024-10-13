@@ -1,0 +1,43 @@
+{
+  "name": "api-bank",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "start:prod": "node dist/src/server.js",
+    "prisma:generate": "prisma generate",
+    "migrate:dev": "prisma migrate dev --name",
+    "migrate:deploy": "prisma migrate deploy",
+    "test": "glob -c \"node --import tsx --no-warnings --test\" \"./tests/**/*.spec.ts\""
+  },
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "@types/eslint__js": "^8.42.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "http-status-codes": "^2.3.0",
+    "joi": "^17.13.3",
+    "prisma": "^5.20.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.15.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.17",
+    "@types/sinon": "^17.0.3",
+    "@types/swagger-ui-express": "^4.1.6",
+    "eslint": "^9.12.0",
+    "glob": "^11.0.0",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3",
+    "sinon": "^19.0.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.8.1"
+  }
+}
